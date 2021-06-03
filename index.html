@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="logo">Food</a>
+        <div class="menu-toggle">
+            <i class="fas fa-hamburger"></i>
+        </div>
+        <div class="navbar">
+            <ul class=navlist>
+                <li><a class="active menu-toggle" href="#home">Home</a></li>
+                <li><a class="menu-toggle" href="#about">About</a></li>
+                <li><a class="menu-toggle" href="#menu">Menu</a></li>
+                <li><a class="menu-toggle" href="#popular">Popular</a></li>
+                <li><a class="menu-toggle" href="#order">Order</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="content" data-aos="fade-right">
+            <div class="text-1">Are You <span>Hungry</span> ?</div>
+            <div class="text-2"><span>D</span>on't Wait!</div>
+            <div class="text-3">Let's start to <span>order food</span> now</div>
+            <a href="#menu"><button class="btn">Check Out Menu</button></a>
+        </div>
+        <div class="image" data-aos="zoom-in-left" data-duration="1500">
+            <img src="18.jpg">
+        </div>
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+        <h1 class="heading" data-aos="fade-right"><span class="text-4">A</span>bout U<span>s</span></h1>
+        <div class="about-box">
+            <div class="about-image" data-aos="fade-down" data-aos-anchor-placement="top-center">
+                <img src="20.webp">
+            </div>
+            <div class="about-content" data-aos="fade-up">
+                <h2 class="sub-heading">We cook the best <span>testy food</span></h2>
+                <p class="sub-description">We cook the best testy food in the entire city with excellent customer
+                    service
+                    and on the best price visit us
+                </p>
+                <a href="#"><button class="btn">learn more</button></a>
+            </div>
+        </div>
+    </section>
+    <!--menu section-->
+    <section class="menu" id="menu">
+        <h1 class="heading" data-aos="fade-right">
+            Our <span class="text-4">M</span>enu
+        </h1>
+        <ul class="list" data-aos="fade-down">
+            <li class="btn" data-src="6.jpg">Breakfast</li>
+            <li class="btn" data-src="9.png">Lunch</li>
+            <li class="btn" data-src="15.jpg">Dinner</li>
+            <li class="btn" data-src="26.jpg">Dessert</li>
+        </ul>
+        <div class="menu-content">
+            <div class="image" data-aos="fade-up-right">
+                <img src="15.jpg" id="menu-img">
+            </div>
+            <div class="information" data-aos="fade-down-left">
+                <h3 class="title"><span>1.</span>We serve best food in the country</h3>
+                <p class="sub-title">Lorem ipsum dolar smit lorem ipsum dolar smit lorem ipsum dolarsmit</p>
+                <h3 class="title"><span>2.</span>We serve best food in the country</h3>
+                <p class="sub-title">Lorem ipsum dolar smit lorem ipsum dolar smit lorem ipsum dolarsmit</p>
+                <h3 class="title"><span>3.</span>We serve best food in the country</h3>
+                <p class="sub-title">Lorem ipsum dolar smit lorem ipsum dolar smit lorem ipsum dolarsmit</p>
+                <h3 class="title"><span>4.</span>We serve best food in the country</h3>
+                <p class="sub-title">Lorem ipsum dolar smit lorem ipsum dolar smit lorem ipsum dolarsmit</p>
+            </div>
+        </div>
+    </section>
+    <!--popular section-->
+    <section class="popular" id="popular">
+        <h1 class="heading" data-aos="fade-right"><span class="text-4">M</span>ost Popular <span>Food</span></h1>
+        <div class="popular-content">
+            <div class="card" data-aos="flip-right">
+                <img src="17.jpg">
+                <h4>Burger</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 250/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-up">
+                <img src="18.jpg">
+                <h4>Pizza</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 480/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-left">
+                <img src="29.jpg">
+                <h4>Cold Coffee</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 210/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-right">
+                <img src="30.jpg">
+                <h4>Vada Pav</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 70/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-down">
+                <img src="31.jpg">
+                <h4>Sandwich</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 110/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-left">
+                <img src="26.jpg">
+                <h4>Ice Cream</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 280/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-right">
+                <img src="33.jpg">
+                <h4>Poha</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 80/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-up">
+                <img src="34.jpg">
+                <h4>Thali</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 500/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-left">
+                <img src="20.webp">
+                <h4>Noodles</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 300/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-right">
+                <img src="23.jpg">
+                <h4>Manchurian</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 130/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-up">
+                <img src="24.jpg">
+                <h4>Pav Bhaji</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 400/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+            <div class="card" data-aos="flip-left">
+                <img src="25.jpg">
+                <h4>Momos</h4>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs 500/-</div>
+                <a href="#"><button class="btn">Order now</button></a>
+            </div>
+    </section>
+    <section class="order" id="order">
+        <h1 class="heading" data-aos="fade-right">Place Your <span>Order</span></h1>
+        <div class="order-content">
+            <form data-aos="fade-right">
+                <input type="text" class="form-content" placeholder=" enter your name" required>
+                <input type="email" class="form-content" placeholder=" enter your email" required>
+                <input type="number" class="form-content" placeholder="enter your number" required>
+                <textarea cols="30" rows="10" class="form-content address" placeholder="enter your address"
+                    required></textarea>
+                <input type="submit" class="btn" value="order now">
+            </form>
+            <div class="order-image" data-aos="zoom-in-left">
+                <img src="29.jpg">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3 class="footer-heading">Contact Info :</h3>
+                <p><span><i class="fas fa-map-marker-alt"></i></span>Dhule,India 424002</p>
+                <p><span><i class="fas fa-envelope"></i></span>Exmaple@gmail.com</p>
+                <p><span><i class="fas fa-phone"></i></span>+123-456-789-012</p>
+            </div>
+            <ul class="footer-info">
+                <h3 class="footer-heading">Links :</h3>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+            <ul class="footer-info">
+                <h3 class="footer-heading">Follow :</h3>
+                <li><a href="#"><span><i class="fas fa-envelope"></i></span>Email</a></li>
+                <li><a href="#"><span><i class="fab fa-facebook-f"></i></span>Facebook</a></li>
+                <li><a href="#"><span><i class="fab fa-instagram"></i></span>Instagram</a></li>
+              </div>
+            </ul>
+            <div class="last"> Online Food Ordering @2021</div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            dealy: 400,
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
